@@ -1,6 +1,6 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
-
+console.log(import.meta.env.VITE_GEMINI_API);
 const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API);
 const model = genAI.getGenerativeModel({ model: "gemini-exp-1206",temperature:0 });
 
