@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart, Pie, Cell, Legend, ResponsiveContainer } from "recharts";
-import "react-calendar-heatmap/dist/styles.css";
+
 
 const Visualization = ({ analysis }) => {
   if (!analysis) return null;
